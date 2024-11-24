@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-The `getGuessesWord` method is designed to guess a word programmatically based on the rules of a Wordle-like puzzle. It uses a combination of logic and AI tools to generate words that fit specific constraints and conditions derived from previous guesses and results.
+This project is designed to guess a word programmatically based on the rules of a Wordle-like puzzle. It uses a combination of logic and AI tools to generate words that fit specific constraints and conditions derived from previous guesses and results.
 
 ---
 
