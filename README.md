@@ -6,6 +6,19 @@ The `getGuessesWord` method is designed to guess a word programmatically based o
 
 ---
 
+## **Project Setup**
+
+**Create a `.env` File:**  
+Inside the project directory, create a file named `.env` and add the following:
+
+```env
+OPENAI_API_KEY=your_openai_api_key_here
+```
+
+Replace `your_openai_api_key_here` with your actual OpenAI API key.
+
+---
+
 ## **Functionality**
 
 ### **Method Purpose**
