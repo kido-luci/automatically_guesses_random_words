@@ -107,11 +107,7 @@ final class AutoGuessesWordsServices {
           'Give an English words that must be has $wordLength letters by following the rules(answer by syntax {"word":<result>}):\n${conditions.join('\n')}';
     }
 
-    print(prompt);
-
     final message = await OpenAiUtilities.instance.sendMessage(prompt);
-
-    print(message);
 
     if (message != null) {
       result = jsonDecode(message)['word'];
